@@ -1,0 +1,76 @@
+body {
+  background-color: #212121;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* App box*/
+
+#app {
+  padding-top: 80px;
+  width: 100%;
+  height: 80vh;
+}
+
+.content {
+  height: 600px;
+  overflow: hidden;
+  display: flex;
+  padding-top: 10px;
+}
+
+.content__paginator {
+  position: absolute;
+  top: 55px;
+  right: 0;
+}
+
+/* Search bar*/
+
+.toolbar {
+  width: 100%;
+  height: 50px;
+  background: #212121;
+  position: fixed;
+  text-align: center;
+}
+
+.toolbar__resume {
+  margin: 0 25px 0 25px;
+  text-align: left;
+}
+
+/* Cover list albums*/
+.cover {
+  width: 350px;
+  height: 120px;
+  padding: 5px;
+  background: rgba(21, 21, 21, 0.7);
+}
+
+.cover__img {
+  padding: 10px;
+  width: 25%;
+  float:left;
+}
+
+.cover__description {
+  width: 75%;
+  /* float:left; */
+}
+
+.cover__description--year {
+  font-size: 10px;
+  color: #616161;
+}
+
+.cover__description--title {
+  color: #FFF;
+}
+
+/**/
+.content__paginator > .material-icons {
+  font-size: 30px !important;
+  color: #cecece;
+  cursor: pointer;
+}
